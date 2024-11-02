@@ -8,7 +8,7 @@ docker volume create  \
 --opt o=bind --opt type=none vscode
 
 docker volume create  \
---opt device="//Users/gabeen/Documents/gabeen/cicd/cicd-start/IDE/jenkins" \
+--opt device="/Users/gabeen/Documents/gabeen/cicd/cicd-start/IDE/jenkins" \
 --opt o=bind --opt type=none jenkins-home
 
 # 볼륨 생성 확인
