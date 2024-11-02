@@ -15,7 +15,7 @@ services:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false  # 초기 설정 마법사 비활성화 옵션
     
   server:
-    image: gabeen/cloud-cicd
+    image: gabeenkim/cloud-cicd
     container_name: "ide"
     networks:
       - kind_network
