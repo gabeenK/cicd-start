@@ -4,11 +4,11 @@ docker volume create  \
 --opt o=bind --opt type=none cloud-cicd-src
 
 docker volume create  \
---opt device="/Users/dangtongbyun/Library/CloudStorage/GoogleDrive-dbyun@redhat.com/내 드라이브/05.Lecture/cicd/cloud-cicd/vscode" \
+--opt device="/Users/gabeen/Documents/gabeen/cicd/cicd-start/IDE/vscode" \
 --opt o=bind --opt type=none vscode
 
 docker volume create  \
---opt device="/Users/dangtongbyun/Library/CloudStorage/GoogleDrive-dbyun@redhat.com/내 드라이브/05.Lecture/cicd/cloud-cicd/jenkins" \
+--opt device="//Users/gabeen/Documents/gabeen/cicd/cicd-start/IDE/jenkins" \
 --opt o=bind --opt type=none jenkins-home
 
 # 볼륨 생성 확인
